@@ -1,8 +1,9 @@
 # Balance Breaker DS Wiimmfi Guide
+## Version 1.0
 This guide explains how to connect to Wiimmfi, a replacement server for the now-defunct Nintendo WFC, on a Nintendo DS/3DS/2DS family console and on the [melonDS](http://melonds.kuribo64.net) emulator (a Nintendo DS(i) emulator for Windows, macOS and Linux) so you can play Nintendo DS games online once again.
 
 ## Nintendo DS
-1. Find the Nintendo WFC setup in any Nintendo WFC enabled DS game, or if you're on a 3DS/2DS family console you can access the Nintendo WFC setup via the System Settings app.
+1. Find the Nintendo WFC setup in any Nintendo WFC enabled DS game, or if you're on a 3DS/2DS family console you can also access the Nintendo WFC setup via the System Settings app.
 1. Setup an Internet connection. Note: This will only work with networks that have WEP security or no security. If you're not sure what security your network has, it's most likely WPA/WPA2 unless your router is ancient. In that case, you can either setup an open [guest network](https://www.hellotech.com/guide/for/how-to-set-up-guest-wifi-network) or an easier way is to setup an open mobile hotspot for your console to connect to. *Most* mobile hotspots should work.
 1. Set `Auto-obtain DNS` to `No`.
 1. Set `Primary DNS` to `164.132.44.106`.
@@ -19,3 +20,5 @@ This guide explains how to connect to Wiimmfi, a replacement server for the now-
    • DS firmware
    
    You can dump these files from real hardware with [this](http://kuribo64.net/get.php?id=TWCJjwloQLCYy3Zh) tool. This guide doesn't state any *alternative* methods to obtain these files.
+1. Open melonDS, go to `Config > Emu settings` and input the 3 files you obtained from the previous step under `DS mode`.
+1. Follow the Nintendo DS guide that's above this guide. Note: Ignore the note in step 2 as melonDS uses your PC's Internet connection and displays it as an open network named `melonDS` when you search for access points in the Nintendo WFC setup.
