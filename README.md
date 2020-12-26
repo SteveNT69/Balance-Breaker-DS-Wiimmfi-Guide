@@ -10,8 +10,12 @@ This guide explains how to connect to Wiimmfi, a replacement server for the now-
 
 ## melonDS
 1. Download the latest version of melonDS from [here](http://melonds.kuribo64.net/downloads.php) if you haven't already.
-1. You will need to find 3 files in order to use the emulator:
+1. You will need to obtain these 3 files in order to use the emulator:
+
    • DS ARM9 BIOS
+   
    • DS ARM7 BIOS
+   
    • DS firmware
-  You can dump these files from real hardware with [this](http://kuribo64.net/get.php?id=TWCJjwloQLCYy3Zh) tool. This guide doesn't state any *alternative* methods to obtain these files.
+   
+   You can dump these files from real hardware with [this](http://kuribo64.net/get.php?id=TWCJjwloQLCYy3Zh) tool. This guide doesn't state any *alternative* methods to obtain these files.
